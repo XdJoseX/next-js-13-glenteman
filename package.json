@@ -20,11 +20,13 @@
     "styled-components": "^6.0.0-beta.14"
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "^13.2.4",
     "@types/node": "18.15.0",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.35.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-next": "13.2.4",
     "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^8.8.0",
@@ -41,5 +43,8 @@
       "eslint --fix",
       "prettier --write"
     ]
+  },
+  "prettier": {
+    "singleQuote": true
   }
 }
