@@ -1,19 +1,19 @@
-export const Routes ={
-    Home : {
-        path: '/',
-        name: 'Home',
-    },
-    CHARACTERS : {
-        path: 'information/characters',
-        name: 'Characters'
-    },
-    LOCATIONS : {
-        path: 'information/locations',
-        name: 'Locations'
-    },
+export const Routes = {
+  Home: {
+    path: '/',
+    name: 'Home',
+  },
+  CHARACTERS: {
+    path: 'information/characters',
+    name: 'Characters',
+  },
+  LOCATIONS: {
+    path: 'information/locations',
+    name: 'Locations',
+  },
 };
 
 export interface Route {
-    path: string;
-    name: string;
+  path: string;
+  name: string;
 }

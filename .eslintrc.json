@@ -7,14 +7,22 @@
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["app"]
+      }
+    }
+  },
   "rules": {
-    "max-len": ["error", 140 ],
+    "max-len": ["error", 4000 ],
     "quotes": ["error", "single", { "avoidEscape": true }],
     "prettier/prettier": [
       "error", 
       {
          "endOfLine":
           "auto"
-           }]
+           }],
+     "no-html-link-for-pages": "off"     
   }
 }

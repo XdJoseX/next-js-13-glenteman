@@ -6,15 +6,16 @@ const nextConfig = {
   skipMiddlewareUrlNormalize: true,
   experimental: {
     appDir: true,
-    
   },
- images: {
+  eslint: {
+    dirs: ['app'],
+  },
+  images: {
     remotePatterns: [
       {
-       hostname: "rickandmortyapi.com",
+        hostname: 'rickandmortyapi.com',
       },
     ],
   },
 };
 module.exports = nextConfig;
-
